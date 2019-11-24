@@ -362,14 +362,16 @@ section, footer {
 }
 /* line 254, ../sass/_global.scss */
 .content .content__our-team .team li img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ccc;
   width: 120px;
   height: 120px;
 }
-/* line 258, ../sass/_global.scss */
+/* line 260, ../sass/_global.scss */
 .content .content__our-team .team li .info-user {
   margin-left: 21px;
 }
-/* line 260, ../sass/_global.scss */
+/* line 262, ../sass/_global.scss */
 .content .content__our-team .team li .info-user h5 {
   color: #314a5b;
   font-family: 'Montserrat', sans-serif;
@@ -377,21 +379,21 @@ section, footer {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 267, ../sass/_global.scss */
+/* line 269, ../sass/_global.scss */
 .content .content__our-team .team li .info-user .position {
   margin: 12px 0 14px;
   color: #f0454c;
   font-size: 14px;
   font-weight: 400;
 }
-/* line 273, ../sass/_global.scss */
+/* line 275, ../sass/_global.scss */
 .content .content__our-team .team li .info-user p {
   color: #9aa0ab;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
-/* line 282, ../sass/_global.scss */
+/* line 284, ../sass/_global.scss */
 .content .content__our-team a {
   position: relative;
   margin-top: 56px;
@@ -403,7 +405,7 @@ section, footer {
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 292, ../sass/_global.scss */
+/* line 294, ../sass/_global.scss */
 .content .content__our-team a:after {
   position: absolute;
   content: "";
@@ -414,36 +416,36 @@ section, footer {
   right: 0;
 }
 
-/* line 307, ../sass/_global.scss */
+/* line 309, ../sass/_global.scss */
 footer {
   padding-bottom: 40px;
 }
-/* line 309, ../sass/_global.scss */
+/* line 311, ../sass/_global.scss */
 footer .linear {
   width: 940px;
   margin: 0 auto 30px;
   height: 1px;
   background-color: #e6eaed;
 }
-/* line 315, ../sass/_global.scss */
+/* line 317, ../sass/_global.scss */
 footer .footer__content {
   display: flex;
   justify-content: space-between;
 }
-/* line 318, ../sass/_global.scss */
+/* line 320, ../sass/_global.scss */
 footer .footer__content .footer__social-icons {
   display: flex;
 }
-/* line 320, ../sass/_global.scss */
+/* line 322, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li {
   margin-right: 22px;
 }
-/* line 323, ../sass/_global.scss */
+/* line 325, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a i {
   color: #b9c0c6;
   font-size: 18px;
 }
-/* line 327, ../sass/_global.scss */
+/* line 329, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .instagram {
   background: radial-gradient(circle farthest-corner at 35% 90%, #b9c0c6, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 140%, #b9c0c6, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #b9c0c6, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #b9c0c6, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 0, #b9c0c6, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #b9c0c6, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #b9c0c6, rgba(0, 0, 0, 0)), linear-gradient(#b9c0c6, #b9c0c6 30%, #b9c0c6 50%, #b9c0c6 70%, #fec66d 100%);
   border-radius: .2em;
@@ -452,7 +454,7 @@ footer .footer__content .footer__social-icons li a .instagram {
   position: relative;
   width: 20.2px;
 }
-/* line 342, ../sass/_global.scss */
+/* line 344, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .instagram:before, footer .footer__content .footer__social-icons li a .instagram:after {
   color: #fff;
   content: '';
@@ -460,14 +462,14 @@ footer .footer__content .footer__social-icons li a .instagram:before, footer .fo
   position: absolute;
   border: .075em solid;
 }
-/* line 350, ../sass/_global.scss */
+/* line 352, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .instagram:before {
   border-radius: inherit;
   height: .75em;
   transform: translate(0.125em, 0.125em);
   width: .75em;
 }
-/* line 356, ../sass/_global.scss */
+/* line 358, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .instagram:after {
   border-radius: 1em;
   box-shadow: .2em -.2em 0 -.16em;
@@ -475,7 +477,7 @@ footer .footer__content .footer__social-icons li a .instagram:after {
   transform: translate(0.3em, 0.3em);
   width: .4em;
 }
-/* line 363, ../sass/_global.scss */
+/* line 365, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .instagram:hover {
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
   border-radius: .2em;
@@ -484,7 +486,7 @@ footer .footer__content .footer__social-icons li a .instagram:hover {
   position: relative;
   width: 20.5px;
 }
-/* line 378, ../sass/_global.scss */
+/* line 380, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .instagram:hover:before, footer .footer__content .footer__social-icons li a .instagram:hover:after {
   color: #fff;
   content: '';
@@ -492,14 +494,14 @@ footer .footer__content .footer__social-icons li a .instagram:hover:before, foot
   position: absolute;
   border: .075em solid;
 }
-/* line 386, ../sass/_global.scss */
+/* line 388, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .instagram:hover:before {
   border-radius: inherit;
   height: .75em;
   transform: translate(0.125em, 0.125em);
   width: .75em;
 }
-/* line 393, ../sass/_global.scss */
+/* line 395, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .instagram:hover:after {
   border-radius: 1em;
   box-shadow: .2em -.2em 0 -.16em;
@@ -507,23 +509,23 @@ footer .footer__content .footer__social-icons li a .instagram:hover:after {
   transform: translate(0.3em, 0.3em);
   width: .4em;
 }
-/* line 403, ../sass/_global.scss */
+/* line 405, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .google-plus {
   margin-top: 2px;
 }
-/* line 405, ../sass/_global.scss */
+/* line 407, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li a .google-plus:hover {
   filter: invert(0.36) sepia(1) saturate(18.5) hue-rotate(320.4deg) brightness(0.67);
 }
-/* line 411, ../sass/_global.scss */
+/* line 413, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li .fa-twitter:hover {
   color: #00ced1;
 }
-/* line 416, ../sass/_global.scss */
+/* line 418, ../sass/_global.scss */
 footer .footer__content .footer__social-icons li .fa-facebook-f:hover {
   color: #166abb;
 }
-/* line 422, ../sass/_global.scss */
+/* line 424, ../sass/_global.scss */
 footer .footer__content .copyright {
   color: #b9c0c6;
   font-size: 13px;
